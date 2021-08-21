@@ -17,28 +17,35 @@ body{
 
 .head {
     display:flex;
-    justify-content: space-between;
-    margin:0;
     width: 100%;
     align-content: center;
-    height: 15%;
     /*This should be the max-widh of your website*/ 
 }
 
     .icono{
-    float: left;
-    width: 15%;
     margin-left: 20px;
+    margin-right: 10px;
+    font-size: xx-large;
+    margin-top: 15px;
     }
 
     .texto{
+     width: 20%;
+     float:left;
+    }
+
+  /*  .texto{
         width:75%;
         display:inline-block;
         margin:0%;
-    }
+    } */
+
+
     .puntos{
     float:right;
-    width:10%;
+    width:80%;
+    text-align: right;
+    margin-right: 10px;
    }
 
 
@@ -56,16 +63,15 @@ img{
     margin:auto;
     display:inline; 
 }
-}
+
 .partedeabajo {
-    width: 100%;
-    height: 40%;
     margin: top 100px;
 }
 
 .parteiconos{
     margin-top: 15px;
     font-size: large;
+    margin-bottom: 15px;
 }
 
 .fontizquierda{
@@ -80,6 +86,9 @@ img{
     display:flex;
 }
 
-#escritura * {
-    margin margin-top: 100px; important:  !important;
+.escritura{
+padding: 5px;
+margin-top: 50px;
+justify-content: center;
 }
+
